@@ -37,6 +37,7 @@ body {
   display: flex;
   align-items: center;
   height: 75px;
+  position: relative;
 
   .logoimg {
     background-image: url("/repolink-icon.png");
@@ -44,6 +45,24 @@ body {
     background-repeat: no-repeat;
     width: 75px;
     height: 100%;
+  }
+
+  .githubimg {
+    background-image: url("/github-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    filter: brightness(3);
+    transition: 0.3s;
+
+    &:hover {
+      filter: brightness(5);
+      cursor: pointer;
+    }
   }
 
   .logotext {
@@ -74,6 +93,7 @@ body {
   margin-top: 20px;
   padding: 20px;
   text-align: center;
+  overflow: scroll;
 
   .big {
     font-size: 30px;
@@ -109,7 +129,7 @@ body {
 
   .inputContainer {
     margin: 30px auto;
-    width: 90%;
+    width: 95%;
     max-width: 700px;
     border: 1px solid rgb(58, 58, 58);
     border-radius: 15px;
@@ -183,6 +203,7 @@ body {
   .bigger-text {
     font-size: 20px;
     font-weight: bold;
+    overflow: scroll;
   }
 
 }

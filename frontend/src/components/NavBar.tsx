@@ -9,6 +9,7 @@ const NavBar = () => {
         <div className="logotext">
           repo<span className="gradtext">l.ink</span>
         </div>
+        <a href={"https://github.com/javud/repol.ink"} target="_blank" rel="noopener noreferrer"><div className="githubimg"></div></a>
       </div>
     </nav>
   );
