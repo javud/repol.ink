@@ -1,0 +1,19 @@
+# .gitignore
+
+# Node modules
+**/node_modules/
+
+# Python
+**/__pycache__/
+**/*.pyc
+**/.venv/
+**/env/
+
+# Env files
+*.env
+backend/.env
+
+# Build output
+.next/
+dist/
+out/
