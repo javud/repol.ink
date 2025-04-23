@@ -107,6 +107,7 @@ const Content = () => {
                     id="ghURL"
                     onChange={handleInputChangeGH}
                     autoComplete="off"
+                    maxLength={200}
                     autoFocus
                     />
                 </div>
@@ -124,6 +125,7 @@ const Content = () => {
                         onChange={handleInputChangeRL}
                         onKeyDown={handleKeyDown}
                         autoComplete="off"
+                        maxLength={200}
                         autoFocus
                         />
                         {isValidRL &&
