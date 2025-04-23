@@ -102,7 +102,7 @@ const Content = () => {
                     <input
                     className="inputBox"
                     type="text"
-                    placeholder="Paste your GitHub repo link here..."
+                    placeholder="Paste your GitHub repo link here"
                     value={ghURL}
                     id="ghURL"
                     onChange={handleInputChangeGH}
